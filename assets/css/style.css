@@ -1,6 +1,7 @@
 	@import url('../responsive-slide/ResponsiveSlides.js-master/demo/demo.css');
 	@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 	@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+	@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
 
 	:root {
 		--effect: hover 1s linear infinite;
@@ -129,6 +130,19 @@
 		width: 60px;
 		height: 40px;
 		margin-top: 5px;
+	}
+
+	.menu-devs {
+		display: flex;
+	}
+
+	.menu-p {
+		display: inline;
+		margin-left: .5rem;
+	}
+
+	.menu-i {
+		float: left;
 	}
 
 	.callbacks_nav {
