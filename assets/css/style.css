@@ -56,7 +56,7 @@
 	}
 
 	.nav {
-		background: #114394;
+		background: #2d3198ac;
 		font-size: 0;
 		position: relative;
 	}
@@ -623,6 +623,10 @@
 		color: #fdfdfd;
 	}
 
+	.final__dupla {
+		background: linear-gradient( 90deg, #131e4b 10%, #0949af 90%);
+	}
+
 	.final__outram {
 		width: 300px;
 		height: 300px;
@@ -655,7 +659,6 @@
 			transform: rotate(-5deg);
 		}
 	}
-
 
 	.final__caixa {
 		background-color: #fafcff;
@@ -948,7 +951,6 @@
 			margin: .7rem 0 .7rem 0;
 		}
 	}
-
 
 	@media screen and (max-width: 950px) {
 		.principal__primeiro {
@@ -1285,7 +1287,6 @@
 		-webkit-text-stroke: 2px rgb(241, 255, 253);
 	}
 
-
 	.p:nth-child(1) {
 		animation: var(--effect);
 	}
@@ -1304,40 +1305,40 @@
 	}
 
 	.p:nth-child(5) {
-		animation: var(--effect) 0.5s;
+		animation: var(--effect) 0.675s;
 		margin-left: 1rem;
 	}
 
 	.p:nth-child(6) {
-		animation: var(--effect) 0.675s;
-	}
-
-	.p:nth-child(7) {
 		animation: var(--effect) 0.75s;
 	}
 
-	.p:nth-child(8) {
+	.p:nth-child(7) {
 		animation: var(--effect) 0.875s;
 	}
 
-	.p:nth-child(9) {
+	.p:nth-child(8) {
 		animation: var(--effect) 1s;
 	}
 
-	.p:nth-child(10) {
+	.p:nth-child(9) {
 		animation: var(--effect) 1.125s;
 	}
 
-	.p:nth-child(11) {
+	.p:nth-child(10) {
 		animation: var(--effect) 1.25s;
 	}
 
-	.p:nth-child(12) {
+	.p:nth-child(11) {
 		animation: var(--effect) 1.375s;
 	}
 
-	.p:nth-child(13) {
+	.p:nth-child(12) {
 		animation: var(--effect) 1.5s;
+	}
+
+	.p:nth-child(13) {
+		animation: var(--effect) 1.625s;
 	}
 
 	@keyframes hover {
