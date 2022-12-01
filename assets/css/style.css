@@ -929,6 +929,7 @@
 
 	.rodapé {
 		display: flex;
+		justify-content: center;
 	}
 
 	.lista-rodapé {
