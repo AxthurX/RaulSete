@@ -2,6 +2,7 @@
 	@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 	@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
 	@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+	@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
 
 	:root {
 		--effect: hover 1s linear infinite;
@@ -471,7 +472,7 @@
 		color: rgba(250, 250, 250, 0.8);
 		margin-bottom: 2rem;
 		margin: 10px;
-		width: 14.9rem;
+		width: 13.8rem;
 		padding: .4rem;
 	}
 
@@ -514,10 +515,11 @@
 		border-image-source: var(--gradiente) !important;
 		text-decoration: none;
 		padding: 0.4rem;
-		top: 3rem;
-		position: relative;
+		position: absolute;
 		box-sizing: border-box;
 		transition: all .25s ease;
+		top: 20rem;
+		right: 3.8rem;
 	}
 
 	.card__btn:hover,
@@ -624,7 +626,7 @@
 	}
 
 	.final__dupla {
-		background: linear-gradient( 90deg, #131e4b 10%, #0949af 90%);
+		background: linear-gradient(90deg, #131e4b 10%, #0949af 90%);
 	}
 
 	.final__outram {
@@ -915,6 +917,91 @@
 		opacity: 0.6;
 	}
 
+	.rodapé {
+		background-color: rgb(36 63 117 / 66%);
+		padding: 1em;
+	}
+
+	.rodapé__logo {
+		width: 400px;
+		height: 250px;
+	}
+
+	.rodapé {
+		display: flex;
+	}
+
+	.lista-rodapé {
+		display: flex;
+		flex-direction: column;
+		margin: 3rem 0;
+	}
+
+	.lista-rodapé__item {
+		display: flex;
+		align-items: center;
+		margin: 1rem 2.2rem .3rem 2.2rem;
+	}
+
+	.lista-rodapé__link {
+		color: #c8c8c8;
+		text-decoration: none;
+		margin-left: 0.6em;
+	}
+
+	.lista-rodapé__titulo {
+		font-size: 18px;
+		color: #fff;
+		font-weight: 500;
+	}
+
+	.rodapé__titulo {
+		font-size: 24px;
+	}
+
+	.lista-rodapé-icons {
+		display: flex;
+		margin: 3rem 0 1rem 3rem;
+		justify-content: center;
+	}
+
+	.lista-rodapé__btn {
+		background-color: rgba(187 14 51 / 50%);
+		color: #fff;
+		width: 200px;
+		height: 50px;
+		border-radius: 30px;
+		font-size: 1rem;
+		margin: 0 0 0 4rem;
+	}
+
+	.lista-rodapé-i {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.contato {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.lista-icons {
+		font-size: 2rem;
+		margin: 0 .5rem;
+		color: #fff;
+	}
+
+	.copyrigth {
+		background-color: rgb(22 53 115);
+	}
+
+	.copyrigth__titulo {
+		text-align: center;
+		padding: .8rem;
+		font-weight: 500;
+		color: #fff;
+	}
+
 	/* Telas pequenas e laptops */
 	@media screen and (max-width: 1024px) {
 		.caixas__titulos {
@@ -949,6 +1036,14 @@
 
 		.final__conteudo-subtexto {
 			margin: .7rem 0 .7rem 0;
+		}
+
+		.lista-rodapé-icons {
+			margin: 3rem 0 1rem 0;
+		}
+
+		.lista-rodapé__btn {
+			margin: 0 0 0 0;
 		}
 	}
 
@@ -990,6 +1085,14 @@
 			width: 250px;
 			height: 250px;
 			right: 0;
+		}
+
+		.rodapé {
+			justify-content: center;
+		}
+
+		.lista-rodapé {
+			display: none;
 		}
 	}
 
@@ -1127,6 +1230,10 @@
 
 		.grupo__titulo {
 			font-size: 2rem
+		}
+
+		.lista-rodapé {
+			display: none;
 		}
 	}
 
@@ -1354,6 +1461,7 @@
 			-webkit-text-stroke: 3px #ffffff;
 			filter: drop-shadow(0 0 1px rgb(255, 255, 255)) drop-shadow(0 0 1px rgb(255, 255, 255)) drop-shadow(0 0 3px rgb(255, 255, 255)) drop-shadow(0 0 5px rgb(254, 254, 255)) hue-rotate(10turn);
 		}
+
 		50% {
 			transform: scale(0.5);
 			color: #121212;
